@@ -12,4 +12,4 @@ add_executable(Snakes ${SOURCES})
 set_property(TARGET Snakes PROPERTY CXX_STANDARD 17)
 target_link_libraries(Snakes ${CURSES_LIBRARIES})
 # TODO: Run -Werror in CI.
-target_compile_options(monitor PRIVATE -Wall -Wextra)
+target_compile_options(Snakes PRIVATE -Wall -Wextra)
